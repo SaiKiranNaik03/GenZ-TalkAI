@@ -75,7 +75,7 @@ st.markdown("""
 # Function to generate response using API
 def response_generator(user):
     url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
-    api_key = "AIzaSyCgFKdRQNa8tZ3R3zxfA5BvZLF-WwMyLlI"
+    api_key = "YOUR_API_KEY"
     headers = {"Content-Type": "application/json"}
     data = {"contents": [{"parts": [{"text": user}]}]}
 
