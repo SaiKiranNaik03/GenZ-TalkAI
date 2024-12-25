@@ -20,8 +20,11 @@ GenZ-TalkAI is a conversational AI application inspired by ChatGPT. Built using 
 Follow these steps to run the project locally:
 
 ### Prerequisites
-- Python 3.7+
-- pip package manager
+- Python 3.8+
+- Streamlit
+- Requests
+- Time
+- JSON
 
 ### Steps
 
